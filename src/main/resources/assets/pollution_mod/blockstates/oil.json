@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pollution_mod:block/oil"
+    }
+  }
+}

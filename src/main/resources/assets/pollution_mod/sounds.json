@@ -1,0 +1,11 @@
+{
+  "coughcough": {
+    "subtitle": "subtitles.coughcough",
+    "sounds": [
+      {
+        "name": "pollution_mod:cough-80945",
+        "stream": false
+      }
+    ]
+  }
+}

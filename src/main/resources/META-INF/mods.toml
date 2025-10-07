@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="pollution_mod"
+version="1.0"
+displayName="Pollution Of The Future"
+displayURL="https://mcreator.net"
+credits="Special thanks to Vini2003 and CorgiTaco for creating the mods this mod is based off of, their amazing and you should check out their work! Thanks to Created using mod maker MCreator - https://mcreator.net/about"
+authors="JY9146, MCreator"
+description="The future of our world if we keep up pollution and climate change."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.pollution_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

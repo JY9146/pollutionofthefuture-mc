@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "pollutedair",
+    "description": "Whether the air is polluted or not.",
+    "category": "PLAYER",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}
