@@ -24,8 +24,6 @@ import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.CloudStatus;
 
-import net.mcreator.pollution.PollutionModMod;
-
 import javax.annotation.Nullable;
 
 import java.util.function.Predicate;
@@ -217,12 +215,10 @@ public class PollutedCloudsProcedure {
 	private static void execute(@Nullable Event event, ResourceKey<Level> dimension) {
 		if (dimension == null)
 			return;
-		PollutionModMod.LOGGER.info("WORK WoRk!");
 		if (dimension == Level.OVERWORLD) {
 			RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA);
 			RenderSystem.setShaderTexture(0, new ResourceLocation(("minecraft" + ":textures/" + "environment/clouds" + ".png")));
 			renderClouds(Minecraft.getInstance().options.getCloudsType(), 192, -1, 0, 1 << 24 | 16 << 16 | 16 << 8 | 16);
-			PollutionModMod.LOGGER.info("WORK WoRk");
 		}
 	}
 }
